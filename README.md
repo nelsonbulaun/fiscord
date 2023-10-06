@@ -20,6 +20,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 Fiscord is a discord themed clone, created with a MongoDB, Express.js, ReactJS, Node.js stack, using Socket IO for websocket connectivity to create a real-time connection between users.
+The frontend, created with React.js, is stylzed using CSS, TailwindCSS and DaisyUI. The backend server, created with Node.js Express.js and using MongoDB as a database, is hosted via. Google Cloud App Engine. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -39,10 +40,10 @@ Fiscord is a discord themed clone, created with a MongoDB, Express.js, ReactJS, 
 
 
 ## Future Improvements
-* Implementation of voice chat, Roles for servers, nicknames, etc.
+* Implementation of voice chat, sending emojis or images, Roles for servers, nicknames, and the ability to upload personalized emotes.
+* Currently, changing the avatars of Users and Servers occurs through uploading an image url. Implementation of file uploading would be a consideration to upgrade this.
+* 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
