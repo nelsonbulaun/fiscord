@@ -1,0 +1,28 @@
+# [START app_yaml]
+runtime: nodejs  # Specify the Node.js runtime version you want to use
+runtime_config:
+    operating_system: "ubuntu22"
+    runtime_version: "20"
+    
+env: flex
+
+env_variables:
+  NODE_ENV: production  # Set the NODE_ENV to 'production' or 'development', as needed
+
+# You can add other environment variables here
+
+# # Automatic scaling based on incoming traffic
+# automatic_scaling:
+#   target_cpu_utilization: 0.65  # Adjust as needed
+#   min_instances: 1              # Minimum number of instances to keep running
+#   max_instances: 10             # Maximum number of instances to scale to
+manual_scaling:
+  instances: 1
+handlers:
+  - url: /.*  # Handle all URL paths
+    script: auto  # Let App Engine handle routing to your application
+
+network:
+  session_affinity: true
+  
+  
