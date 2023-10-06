@@ -85,7 +85,7 @@ export const Login = () => {
             id="register"
             className="container rounded-lg shadow-sm backdrop-blur flex flex-col justify-center sm:py-12 items-center"
           >
-            <a href="/" className="text-3xl font-bold font-heading pb-20">
+            <a href="/" className="text-5xl textfont-bold font-heading pb-20">
               {" "}
               fiscord{" "}
             </a>

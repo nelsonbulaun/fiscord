@@ -19,7 +19,7 @@ export const Logout = () => {
     setAuth(false);
     setUser(null);
     socket.emit("logged-off", previousUser);
-    navigate("/login");
+    navigate("/fiscord/login");
   }
   return (
     <div>
