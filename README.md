@@ -42,7 +42,7 @@ The frontend, created with React.js, is stylzed using CSS, TailwindCSS and Daisy
 ## Future Improvements
 * Implementation of voice chat, sending emojis or images, Roles for servers, nicknames, and the ability to upload personalized emotes.
 * Currently, changing the avatars of Users and Servers occurs through uploading an image url. Implementation of file uploading would be a consideration to upgrade this.
-* 
+
 
 
 
