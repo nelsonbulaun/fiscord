@@ -104,7 +104,7 @@ export const Register = () => {
               id="login"
               className="container rounded-lg shadow-sm backdrop-blur flex flex-col justify-center sm:py-12 items-center"
             >
-              <a href="/" className="text-5xl font-bold font-heading pb-5">
+              <a href="/fiscord/" className="text-2xl font-bold pb-5">
                 fiscord
               </a>
               <div className="p-10 xs:p-0 mx-auto md:w-full md:max-w-md">
