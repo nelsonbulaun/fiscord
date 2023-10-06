@@ -19,7 +19,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+Fiscord is a discord themed clone, created with a MongoDB, Express.js, ReactJS, Node.js stack, using Socket IO for websocket connectivity to create a real-time connection between users.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
